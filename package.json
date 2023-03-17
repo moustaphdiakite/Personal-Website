@@ -1,0 +1,13 @@
+{
+    "name": "Personal Website",
+    "version": "1.0.0",
+    "description": "My personal website",
+    "author": {
+        "name": "Moustaph Diakite"
+    },
+    "dependencies": {},
+    "prettier": {
+        "singleQuote": true,
+        "tabWidth": 4
+    }
+}
