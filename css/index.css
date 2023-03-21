@@ -1,3 +1,78 @@
+header {
+  background-color: hsl(0, 0%, 60%);
+  color: hsl(0, 0%, 95%);
+}
+header .logo {
+  display: inline-block;
+  margin: 1rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+header .menu-icon {
+  float: right;
+  margin: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+header .navbar ul {
+  list-style: none;
+  text-align: center;
+}
+header .navbar ul li {
+  padding: 1rem;
+  border-radius: 2rem;
+}
+header .navbar ul li:hover {
+  background-color: hsl(220, 100%, 30%);
+}
+header .navbar ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  padding: 1rem;
+}
+header .navbar ul li a:hover {
+  color: hsl(210, 100%, 80%);
+}
+header .navbar ul li a:active {
+  color: hsl(0, 0%, 95%);
+}
 
+.inactive {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+  header .logo {
+    padding: 0rem;
+  }
+  header .menu-icon {
+    display: none;
+  }
+  header .navbar {
+    display: inline-block;
+  }
+  header .navbar ul li {
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: unset;
+    margin: 1rem;
+  }
+  header .navbar ul li:hover {
+    background-color: unset;
+  }
+  header .navbar ul li a {
+    padding: 0;
+  }
+  header .navbar ul li.contact-button {
+    background-color: hsl(220, 100%, 30%);
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
