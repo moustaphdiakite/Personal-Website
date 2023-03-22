@@ -5,6 +5,7 @@ $battleship-gray: hsla(0, 0%, 60%, 1);
 $white-smoke: hsla(0, 0%, 95%, 1);
 $black: hsla(0, 0%, 0%, 1);
 
+//header
 header {
     background-color: $battleship-gray;
     color: $white-smoke;
@@ -100,3 +101,50 @@ header {
         }
     }
 }
+
+
+// Introduction Section
+
+.introduction {
+    text-align: center;
+
+    .introduction-text {
+        padding: 1rem;
+
+        p {
+            color: $black;
+            margin: 1rem;
+        }
+    }
+
+    .call-to-action-buttons {
+        display: flex;
+        justify-content: center;
+
+        .contact-button {
+            background-color: $true-blue;
+            padding: 1rem;
+            border-radius: 0.5rem;
+
+            &:hover {
+                background-color: $egyptian-blue;
+            }
+
+            a {
+                color: $white-smoke;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .introduction-text-image {
+        margin: auto;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+

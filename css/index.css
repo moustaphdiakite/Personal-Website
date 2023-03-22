@@ -74,5 +74,39 @@ header .navbar ul li a:active {
     background-color: hsl(220, 100%, 30%);
   }
 }
+.introduction {
+  text-align: center;
+}
+.introduction .introduction-text {
+  padding: 1rem;
+}
+.introduction .introduction-text p {
+  color: hsl(0, 0%, 0%);
+  margin: 1rem;
+}
+.introduction .call-to-action-buttons {
+  display: flex;
+  justify-content: center;
+}
+.introduction .call-to-action-buttons .contact-button {
+  background-color: hsl(210, 100%, 40%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.introduction .call-to-action-buttons .contact-button:hover {
+  background-color: hsl(220, 100%, 30%);
+}
+.introduction .call-to-action-buttons .contact-button a {
+  color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.introduction .introduction-text-image {
+  margin: auto;
+}
+.introduction .introduction-text-image img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*# sourceMappingURL=index.css.map */
