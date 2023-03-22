@@ -50,7 +50,7 @@ header .navbar ul li a:active {
     height: 64px;
   }
   header .logo {
-    padding: 0rem;
+    padding: 0;
   }
   header .menu-icon {
     display: none;
