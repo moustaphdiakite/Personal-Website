@@ -109,4 +109,23 @@ header .navbar ul li a:active {
   height: auto;
 }
 
+.skills h2 {
+  text-align: center;
+  color: hsl(0, 0%, 0%);
+  padding: 37px;
+}
+.skills .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skills .skills-list .skill-item {
+  list-style: none;
+}
+.skills .skills-list .skill-item .fa-square-js, .skills .skills-list .skill-item .fa-node, .skills .skills-list .skill-item .fa-react, .skills .skills-list .skill-item .fa-html5, .skills .skills-list .skill-item .fa-css3 {
+  font-size: 3rem;
+  color: hsl(220, 100%, 30%);
+  margin: 1rem;
+}
+
 /*# sourceMappingURL=index.css.map */

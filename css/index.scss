@@ -148,3 +148,28 @@ header {
     }
 }
 
+//Skills Section
+
+.skills {
+    h2 {
+        text-align: center;
+        color: $black;
+        padding: 37px;
+    }
+
+    .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .skill-item {
+            list-style: none;
+
+            .fa-square-js, .fa-node, .fa-react, .fa-html5, .fa-css3 {
+                font-size: 3rem;
+                color: $egyptian-blue;
+                margin: 1rem;
+            }
+        }
+    }
+}
