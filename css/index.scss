@@ -173,3 +173,71 @@ header {
         }
     }
 }
+
+// Projects Section
+
+.projects {
+
+    h2 {
+        text-align: center;
+        padding: 37px;
+    }
+
+
+    .projects-list {
+        color: $white-smoke;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        list-style: none;
+        margin-bottom: 1rem;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+
+        .project-item {
+            text-align: center;
+            background: $battleship-gray;
+            width: 90%;
+            margin: auto;
+            box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
+            @media (min-width: 768px) {
+                width: 25%;
+                margin: 1rem;
+            }
+
+            .project-card {
+                .project-image-container {
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .project-description {
+                    padding: 1rem;
+
+                    > * {
+                        padding: 0.5rem
+                    }
+
+                    .project-links {
+                        display: flex;
+                        justify-content: center;
+                        padding: 1rem;
+
+                        .fa-github {
+                            font-size: 3rem;
+                            color: $egyptian-blue;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
