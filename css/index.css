@@ -7,6 +7,10 @@ main {
   padding-top: 64px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: hsl(0, 0%, 60%);
   color: hsl(0, 0%, 95%);
