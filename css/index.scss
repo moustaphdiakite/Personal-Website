@@ -5,6 +5,11 @@ $battleship-gray: hsla(0, 0%, 60%, 1);
 $white-smoke: hsla(0, 0%, 95%, 1);
 $black: hsla(0, 0%, 0%, 1);
 
+//.container {
+//    max-width: 1440px;
+//    margin: auto;
+//}
+
 //header
 header {
     background-color: $battleship-gray;
@@ -239,5 +244,51 @@ header {
                 }
             }
         }
+    }
+}
+
+// About Section
+
+.about {
+
+    h2 {
+        text-align: center;
+        padding: 37px;
+    }
+
+    .about-me-content {
+        margin: auto;
+        max-width: 90%;
+        @media (min-width: 768px) {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .about-description {
+            @media (min-width: 768px) {
+                max-width: 50%;
+            }
+
+            .about-description-text {
+                padding: 0.5rem;
+                line-height: 1.5rem;
+                text-align: justify;
+            }
+        }
+
+        .about-photo {
+            display: none;
+            @media (min-width: 768px) {
+                display: block;
+                max-width: 50%;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
     }
 }

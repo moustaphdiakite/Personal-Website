@@ -179,4 +179,43 @@ header .navbar ul li a:active {
   color: hsl(220, 100%, 30%);
 }
 
+.about h2 {
+  text-align: center;
+  padding: 37px;
+}
+.about .about-me-content {
+  margin: auto;
+  max-width: 90%;
+}
+@media (min-width: 768px) {
+  .about .about-me-content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .about .about-me-content .about-description {
+    max-width: 50%;
+  }
+}
+.about .about-me-content .about-description .about-description-text {
+  padding: 0.5rem;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.about .about-me-content .about-photo {
+  display: none;
+}
+@media (min-width: 768px) {
+  .about .about-me-content .about-photo {
+    display: block;
+    max-width: 50%;
+  }
+}
+.about .about-me-content .about-photo img {
+  max-width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=index.css.map */
