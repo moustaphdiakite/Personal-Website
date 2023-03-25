@@ -10,10 +10,18 @@ $black: hsla(0, 0%, 0%, 1);
     margin: auto;
 }
 
+main {
+    padding-top: 64px;
+}
+
 //header
 header {
     background-color: $battleship-gray;
     color: $white-smoke;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
 
     .logo {
         display: inline-block;
@@ -185,7 +193,7 @@ header {
 
     h2 {
         text-align: center;
-        padding: 37px;
+        padding: 64px 37px 37px 37px;
     }
 
 
@@ -253,7 +261,7 @@ header {
 
     h2 {
         text-align: center;
-        padding: 37px;
+        padding: 64px 37px 37px 37px;
     }
 
     .about-me-content {
@@ -298,7 +306,7 @@ header {
 .contact {
     h2 {
         text-align: center;
-        padding: 37px;
+        padding: 64px 37px 37px 37px;
     }
 
     form {

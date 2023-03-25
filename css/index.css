@@ -3,9 +3,17 @@
   margin: auto;
 }
 
+main {
+  padding-top: 64px;
+}
+
 header {
   background-color: hsl(0, 0%, 60%);
   color: hsl(0, 0%, 95%);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
 }
 header .logo {
   display: inline-block;
@@ -135,7 +143,7 @@ header .navbar ul li a:active {
 
 .projects h2 {
   text-align: center;
-  padding: 37px;
+  padding: 64px 37px 37px 37px;
 }
 .projects .projects-list {
   color: hsl(0, 0%, 95%);
@@ -186,7 +194,7 @@ header .navbar ul li a:active {
 
 .about h2 {
   text-align: center;
-  padding: 37px;
+  padding: 64px 37px 37px 37px;
 }
 .about .about-me-content {
   margin: auto;
@@ -225,7 +233,7 @@ header .navbar ul li a:active {
 
 .contact h2 {
   text-align: center;
-  padding: 37px;
+  padding: 64px 37px 37px 37px;
 }
 .contact form label {
   display: block;
